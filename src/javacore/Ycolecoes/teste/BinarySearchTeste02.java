@@ -10,7 +10,7 @@ public class BinarySearchTeste02 {
     public static void main(String[] args) {
         MnagaByIdComparator mnagaByIdComparator = new MnagaByIdComparator();
         List<Manga> mangas = new ArrayList(6);
-        mangas.add(new Manga(5L,"Attack on  titan",19.9));
+        mangas.add(new Manga(5L,"Attack on titan",19.9));
         mangas.add(new Manga(1L,"Bersek",9.5));
         mangas.add(new Manga(4L,"Helsing",3.2));
         mangas.add(new Manga(3L,"Pokemon",11.20));

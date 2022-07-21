@@ -16,7 +16,6 @@ public class SetTeste01 {
         mangas.add(new Manga(4L,"Helsing",3.2,0));
         mangas.add(new Manga(3L,"Pokemon",11.20,2));
         mangas.add(new Manga(2L,"Dragomball z",2.99,0));
-        mangas.add(new Manga(2L,"Dragomball z",2.99,0));
 
         for (Manga manga: mangas) {
             System.out.println(manga);
