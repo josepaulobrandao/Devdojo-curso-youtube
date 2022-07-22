@@ -29,7 +29,7 @@ public class MapTeste02 {
         consumidorManga.put(consumidor2, manga4);
 
         for (Map.Entry<Consumidor, Manga> entry = consumidorManga.entrySet()){
-            
+
         }
     }
 }
