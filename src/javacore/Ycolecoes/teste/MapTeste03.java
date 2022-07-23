@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MapTeste02 {
+public class MapTeste03 {
     public static void main(String[] args) {
 
         Consumidor consumidor1 = new Consumidor("Jose Paulo ");
@@ -24,12 +24,21 @@ public class MapTeste02 {
 
         System.out.println(consumidor1);
 
-        Map<Consumidor, Manga> consumidorManga = new HashMap<>();
-        consumidorManga.put(consumidor1, manga1);
-        consumidorManga.put(consumidor2, manga4);
 
-        for (Map.Entry<Consumidor, Manga> entry : consumidorManga.entrySet()){
-            System.out.println(entry.getKey().getNome() + " : " + entry.getValue().getNome());
+        List<Manga> mangaConsumidor1List = List.of(manga1, manga2, manga3);
+        List<Manga> mangaConsumidor2List = List.of(manga4, manga5);
+
+        Map<Consumidor, List<Manga>> consumidorManga = new HashMap<>();
+        consumidorManga.put(consumidor1, mangaConsumidor1List);
+        consumidorManga.put(consumidor2, mangaConsumidor2List);
+
+        for (Map.Entry<Consumidor, List<Manga>> entry : consumidorManga.entrySet()){
+            System.out.println("---" + entry.getKey().getNome());
+            for (Manga manga : entry.getValue()){
+                System.out.println("---" + manga.getNome());
+            }
         }
+
+
     }
 }
