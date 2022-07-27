@@ -18,4 +18,5 @@ public class LambdaTeste01 {
             consumer.accept(t);
         }
     }
+    //add
 }
