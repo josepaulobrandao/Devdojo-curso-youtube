@@ -11,7 +11,6 @@ public class Teste01 {
         lista.add("Goku");
         lista.add("Goku");
 
-
         for (Object o: lista) {
             System.out.println(o);
         }
