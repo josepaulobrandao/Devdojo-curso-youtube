@@ -15,8 +15,8 @@ public class OuterClassesTeste01 {//Classe externa
         OuterClassesTeste01 outerClass = new OuterClassesTeste01();
         //OuterClassesTeste01.Inner inner = outerClass.new Inner();
 
-        Inner inner2 = new OuterClassesTeste01().new Inner();
-        Inner inner = outerClass.new Inner();
+        Inner inner2 = new OuterClassesTeste01().new Inner();//Forma - 1
+        Inner inner = outerClass.new Inner();//Forma - 2
         inner.printOuterClassAtribute();
         inner2.printOuterClassAtribute();
     }
