@@ -1,4 +1,4 @@
-package javacore.Zgenerics;
+package javacore.Zgenerics.Teste;
 
 import javacore.Ycolecoes.dominio.Consumidor;
 
