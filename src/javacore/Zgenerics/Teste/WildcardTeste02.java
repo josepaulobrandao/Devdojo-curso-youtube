@@ -16,6 +16,8 @@ public class WildcardTeste02 {
     }
 
     //Type erasuere                         //Contrato: qualquer tipo de lista que seja : List<? extends Animal>
+                                            //Qualquer tipo de lista [List<? s] que seja um subclass ou Animal
+                                            //(List<? extends  Animal> animals) vira uma interface
     private static void printConsulta(List<? extends  Animal> animals){//Animal e qualquer um que seja filho
         for (Animal animal : animals) {
             animal.consulta();
@@ -24,6 +26,8 @@ public class WildcardTeste02 {
     }
 
     //Contrato: qualquer tipo de objeto que seja um Animal ou um super de Animal: List<? super Animal>
+    //Qualquer tipo de lista [List<? s] que seja um Super Class
+
     private static void printConsultaAnima(List<? super Animal> animals){//Animal e qualquer um que seja pai -- Só aceita super classe
 
         Animal animal = new Cachorro();//Teste é um : Um cachorro é um animal? = SIM

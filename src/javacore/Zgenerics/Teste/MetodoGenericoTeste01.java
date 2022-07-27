@@ -2,9 +2,6 @@ package javacore.Zgenerics.Teste;
 
 
 import javacore.Zgenerics.dominio.Barco;
-
-import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public class MetodoGenericoTeste01 {
