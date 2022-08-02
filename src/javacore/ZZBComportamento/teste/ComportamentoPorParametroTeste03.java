@@ -14,7 +14,7 @@ public class ComportamentoPorParametroTeste03 {
             new Car("red",2019));
 
     public static void main(String[] args) {
-
+        /*Como existe um método */
         List<Car> greenCars = filter(cars, (Car car) -> car.getColor().equals("green"));
         List<Car> redCars = filter(cars, (car) -> car.getColor().equals("red"));
         List<Car> yarBeforCars = filter(cars, car -> car.getYear() < 2015);

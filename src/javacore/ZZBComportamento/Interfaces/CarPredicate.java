@@ -8,5 +8,5 @@ public interface CarPredicate {
     boolean teste(Car car);//contrato da lambida
 
     //(parametro) -> <expressão>
-    //(Car car) -> hcar.getColor().equals("green");
+    //(Car car) -> car.getColor().equals("green");
 }

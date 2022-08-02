@@ -8,7 +8,6 @@ public class OuterClassesTeste02 {
          name = "";
          class LocalClass {
             public void printLocal(){
-
                 System.out.println(param);
                 System.out.println(name + " " + lastNmae);
             }
@@ -21,5 +20,6 @@ public class OuterClassesTeste02 {
     }
     public static void main(String[] args) {
         OuterClassesTeste02 outer = new OuterClassesTeste02();
+        outer.print("oi");
     }
 }

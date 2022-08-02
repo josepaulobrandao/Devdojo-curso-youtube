@@ -12,7 +12,7 @@ class ImpCalculadora implements Calculadora {
     }
 }
 
-public class Programa001 {
+public class programa001 {
     public static void main(String[] args) {
 
         List<Integer> printNumbers  = List.of(1,2,4,6,4,99,43);
