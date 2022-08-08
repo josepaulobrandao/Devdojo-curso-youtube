@@ -14,5 +14,6 @@ public class Programa003 {
         numbers.forEach((n) -> System.out.println());
         System.out.println("------------------------");
         numbers.forEach(System.out::println);//Method reference
+        numbers.forEach((n) -> System.out.println(n + 1));
     }
 }
