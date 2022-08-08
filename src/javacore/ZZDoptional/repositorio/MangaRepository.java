@@ -48,7 +48,7 @@ public class MangaRepository {
                 found = manga;
             }
         }
-        return  Optional.of(found);
+        return  Optional.ofNullable(found);
     }
 
 }

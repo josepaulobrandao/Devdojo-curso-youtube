@@ -13,7 +13,10 @@ public class OptionTeste02 {
         System.out.println(boku_no_hero);
 
        Manga byId = MangaRepository.findById(2).orElseThrow(IllegalAccessError::new);
-        System.out.println(byId);
+       System.out.println(byId);
+
+        Manga newManga = MangaRepository.findByIdTitle("Maria").orElseGet(() -> new Manga(3, "Drifters",20));
+        System.out.println(newManga);
 
 
 
