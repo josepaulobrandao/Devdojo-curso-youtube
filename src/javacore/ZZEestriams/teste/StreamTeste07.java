@@ -1,12 +1,7 @@
 
 package javacore.ZZEestriams.teste;
 
-import javacore.ZZEestriams.dominio.LightNovel;
-
-import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
 
 
 public class StreamTeste07 {
